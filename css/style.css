@@ -352,9 +352,15 @@ main {
   transition: var(--transition);
 }
 
-.btn:hover {
+.contactButton:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
+  background: rgb(from var(--primary) r g b / 50%);
+}
+.aboutButton:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  background: rgb(from var(--primary) r g b / 50%);
 }
 
 /* ---------- CARDS ---------- */
