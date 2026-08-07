@@ -1,0 +1,268 @@
+const members = [
+  {
+    id: 1,
+    name: "Ghozy",
+    role: "Member",
+    favoriteSong: "Tarot",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 2,
+    name: "Alvina",
+    role: "Member",
+    favoriteSong: "Thinking Out Loud - Ed Sheeran",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 3,
+    name: "Aira",
+    role: "Member",
+    favoriteSong: "Positions - Ariana Grande",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 4,
+    name: "Alisa",
+    role: "Member",
+    favoriteSong: "White Keys - Dominic Fike",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 5,
+    name: "Alivia",
+    role: "Member",
+    favoriteSong: "Tie Me Down",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 6,
+    name: "Zahwa",
+    role: "Member",
+    favoriteSong: "The Visitor",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 7,
+    name: "Fatih",
+    role: "Member",
+    favoriteSong: "Komang - Raim Laode",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 8,
+    name: "Wahyudi",
+    role: "Member",
+    favoriteSong: "Sorai - Nadin Amizah",
+    instagram: {
+      username: "@yukade_",
+      url: "https://instagram.com/yukade_",
+    },
+    image: null,
+  },
+  {
+    id: 9,
+    name: "Giyan",
+    role: "Member",
+    favoriteSong: "Pemuja Rahasia",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 10,
+    name: "Lintang",
+    role: "Member",
+    favoriteSong: "The Man Who Can't Be Moved - The Script",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 11,
+    name: "Yafi",
+    role: "Member",
+    favoriteSong: "My Love - Westlife",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 12,
+    name: "Anugerah",
+    role: "Member",
+    favoriteSong: "When I Was Your Man - Bruno Mars",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 13,
+    name: "Mazaya",
+    role: "Member",
+    favoriteSong: "What If I Call",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 14,
+    name: "Alvin",
+    role: "Member",
+    favoriteSong: "Wish You Were Here - Neck Deep",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 15,
+    name: "Rayyan",
+    role: "Member",
+    favoriteSong: "Ching Cheng Hanji",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 16,
+    name: "Mutia",
+    role: "Member",
+    favoriteSong: "Enchanted - Taylor Swift",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 17,
+    name: "Aqila",
+    role: "Member",
+    favoriteSong: "Ingkar - Tulus",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 18,
+    name: "Naufal",
+    role: "Member",
+    favoriteSong: "Runtuh",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 19,
+    name: "Naura",
+    role: "Member",
+    favoriteSong: "Blessed - Daniel Caesar",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 20,
+    name: "Nazila",
+    role: "Member",
+    favoriteSong: "Complicated - Avril Lavigne",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 21,
+    name: "Qistina",
+    role: "Member",
+    favoriteSong: "Drivers License - Olivia Rodrigo",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 22,
+    name: "Dede",
+    role: "Member",
+    favoriteSong: "Bersenja Gurau - Raim Laode",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 23,
+    name: "Piya",
+    role: "Member",
+    favoriteSong: "Risk It All",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+  {
+    id: 24,
+    name: "Zahra",
+    role: "Member",
+    favoriteSong: "Fall in Love Alone",
+    instagram: {
+      username: "@example",
+      url: "#",
+    },
+    image: null,
+  },
+];
+
+export default members;

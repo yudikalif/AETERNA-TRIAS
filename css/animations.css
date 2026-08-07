@@ -1,0 +1,24 @@
+/* ---------- cardFlip animation ------------- */
+.cardBack {
+  transform: rotateY(180deg);
+}
+.strukturCard:hover .card {
+  transform: rotateY(180deg) scale(1.05);
+  transition: transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.strukturCard:hover .cardInnerContainer::before {
+  opacity: 1;
+}
+#membersCarousel {
+  overflow: hidden;
+  width: fit-content;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 2rem;
+
+  transform: translateX(0);
+
+  transition: transform 400ms ease;
+}
