@@ -48,9 +48,16 @@
             <a href="#gallery">Gallery</a>
           </nav>
 
-          <button class="menu-btn menu-hidden">
+          <button class="menuButton" id="menuButton" aria-label="Open menu">
             <i class="fa-solid fa-bars"></i>
           </button>
+
+          <nav class="mobileMenu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#members">Members</a>
+            <a href="#gallery">Gallery</a>
+          </nav>
         </div>
       </header>
       <section id="home">
@@ -71,10 +78,12 @@
 
             <div class="heroButton">
               <button class="aboutButton btn"><p>About</p></button>
-              <button class="contactButton btn">
-                <i class="fa-solid fa-phone" style="color: #f7f5ef"></i>
-                <p>Contact</p>
-              </button>
+              <a href="#footer">
+                <button class="contactButton btn">
+                  <i class="fa-solid fa-phone" style="color: #f7f5ef"></i>
+                  <p>Contact</p>
+                </button></a
+              >
             </div>
           </div>
           <div class="heroImage">
@@ -113,11 +122,15 @@
                 <h2>Ketua Kelas</h2>
               </div>
 
-              <div class="cardBack">
+              <div class="cardBack aqila">
                 <div class="cardInnerContainer">
                   <div class="imageCard"></div>
-                  <p class="namaStruktur">Anonym</p>
-                  <div class="medsosStruktur">@example</div>
+                  <p class="namaStruktur">Aqila</p>
+                  <div class="medsosStruktur">
+                    <a href="https://www.instagram.com/nadaqurrotun_/">
+                      @nadaqurrotun_</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -136,7 +149,7 @@
                 <div class="cardInnerContainer">
                   <div class="imageCard"></div>
                   <p class="namaStruktur">Anonym</p>
-                  <div class="medsosStruktur">@example</div>
+                  <div class="medsosStruktur"><a href="">@example</a></div>
                 </div>
               </div>
             </div>
@@ -155,14 +168,14 @@
                 <div class="cardInnerContainer">
                   <div class="imageCard"></div>
                   <p class="namaStruktur">Anonym</p>
-                  <div class="medsosStruktur">@example</div>
+                  <div class="medsosStruktur"><a href="">@example</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="memberContainer">
-          <div class="memberNextButtonLeft">
+          <div class="memberNextButtonLeft left">
             <button class="nextButtonLeft">
               <i class="fa-solid fa-arrow-left"></i>
             </button>
@@ -171,7 +184,7 @@
           <div id="membersCarousel"></div>
 
           <div class="memberNextButtonRight">
-            <button class="nextButtonRight">
+            <button class="nextButtonRight right">
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
@@ -184,13 +197,13 @@
           <div id="gallery-carousel">
             <h1 class="galleryHeader"></h1>
             <div class="galleryContainer">
-              <button class="galleryButtonLeft">
+              <button class="galleryButtonLeft left">
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
 
               <div id="galleryCarousel"></div>
 
-              <button class="galleryButtonRight">
+              <button class="galleryButtonRight right">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
@@ -201,7 +214,7 @@
 
     <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <footer id="footer">
       <a href="#home">
         <div class="arrowAndText">
           <button class="arrow">

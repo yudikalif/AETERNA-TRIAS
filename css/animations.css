@@ -22,3 +22,10 @@
 
   transition: transform 400ms ease;
 }
+#members a:hover {
+  text-shadow:
+    0 0 15px var(--text-light),
+    0 0 15px var(--text-light),
+    0 0 15px var(--text-light);
+  transition: var(--transition);
+}

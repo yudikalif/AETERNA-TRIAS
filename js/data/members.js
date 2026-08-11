@@ -74,7 +74,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: "../assets/images/people photo/fatih.jpeg",
+    image: "../assets/images/members/fatih.jpeg",
   },
   {
     id: 8,
@@ -94,9 +94,9 @@ const members = [
     favoriteSong: "Pemuja Rahasia",
     instagram: {
       username: "@traalqii._",
-      url: "#",
+      url: "https://www.instagram.com/traalqii._",
     },
-    image: null,
+    image: "../assets/images/members/giyan.jpeg",
   },
   {
     id: 10,
@@ -115,10 +115,10 @@ const members = [
     role: "Member",
     favoriteSong: "My Love - Westlife",
     instagram: {
-      username: "@example",
-      url: "#",
+      username: "@yafi2563",
+      url: "https://www.instagram.com/yafi2563/",
     },
-    image: null,
+    image: "../assets/images/members/yafi.jpeg",
   },
   {
     id: 12,
@@ -162,7 +162,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: null,
+    image: "../assets/images/members/rayyan.jpeg",
   },
   {
     id: 16,
@@ -181,10 +181,10 @@ const members = [
     role: "Member",
     favoriteSong: "best part - Daniel caesar",
     instagram: {
-      username: "@example",
-      url: "#",
+      username: "@nadaqurrotun_",
+      url: "https://www.instagram.com/nadaqurrotun_/",
     },
-    image: null,
+    image: "../assets/images/members/aqila.jpeg",
   },
   {
     id: 18,
@@ -192,10 +192,10 @@ const members = [
     role: "Member",
     favoriteSong: "Runtuh",
     instagram: {
-      username: "@example",
-      url: "#",
+      username: "@baroon_witch2",
+      url: "https://www.instagram.com/baroon_witch2",
     },
-    image: null,
+    image: "../assets/images/members/nopal.jpg",
   },
   {
     id: 19,
@@ -203,10 +203,10 @@ const members = [
     role: "Member",
     favoriteSong: "Blessed - Daniel Caesar",
     instagram: {
-      username: "@example",
-      url: "#",
+      username: "@nounaaw_",
+      url: "https://www.instagram.com/nounaaw_/",
     },
-    image: null,
+    image: "../assets/images/members/naura.jpeg",
   },
   {
     id: 20,

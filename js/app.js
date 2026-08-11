@@ -24,3 +24,14 @@ new VirtualCarousel({
   visibleItems: 3,
   animationDuration: 400,
 });
+const menuButton = document.querySelector("#menuButton");
+const mobileMenu = document.querySelector("#mobileMenu");
+
+menuButton?.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+
+  const icon = menuButton.querySelector("i");
+
+  icon.classList.toggle("fa-bars");
+  icon.classList.toggle("fa-xmark");
+});
