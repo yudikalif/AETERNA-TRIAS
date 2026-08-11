@@ -126,10 +126,10 @@ const members = [
     role: "Member",
     favoriteSong: "kangen - Dewa 19",
     instagram: {
-      username: "@example",
-      url: "#",
+      username: "@ger_41502",
+      url: "https://www.instagram.com/ger_41502/",
     },
-    image: null,
+    image: "/AETERNA-TRIAS/assets/images/members/tama.jpeg",
   },
   {
     id: 13,
