@@ -193,6 +193,8 @@ export default class VirtualCarousel {
     if (this.isAnimating) return;
 
     this.isAnimating = true;
+    this.nextButton.disabled = true;
+    this.nextButton.disabled = true;
 
     console.log("Animating started");
 

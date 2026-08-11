@@ -3,18 +3,28 @@ export function createMemberCard(member) {
   card.className = "memberCard";
 
   card.innerHTML = `
-        
-        <div>
-        <h3>${member.name}</h3>
-        <div>
-        <p>🎶 ${member.favoriteSong}</p>
+    <div class="memberBackground"></div>
 
-        <a href="${member.instagram.url}" target="_blank">
-            ${member.instagram.username}
-        </a>
-        </div>
-        </div>
-    `;
+    <div class="memberOverlay"></div>
+
+    <div class="memberContent">
+     
+
+      <h3>${member.name}</h3>
+
+      <p>🎵 ${member.favoriteSong}</p>
+
+      <a href="${member.instagram.url}" target="_blank">
+        ${member.instagram.username}
+      </a>
+    </div>
+  `;
+
+  // Background photo
+  if (member.image) {
+    card.querySelector(".memberBackground").style.backgroundImage =
+      `url("${member.image}")`;
+  }
 
   return card;
 }

@@ -313,32 +313,49 @@
   transform: translate3d(0, 0, 0);
 }
 .memberCard {
-  flex: 0 0 var(--card-width);
-  width: var(--card-width);
-  padding: 0px;
-  background: var(--primary);
-  color: var(--text-light);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+
+  flex: 0 0 calc((100% - 4rem) / 3);
+  min-height: 320px;
+  height: 24rem;
   border-radius: 16px;
-
   box-sizing: border-box;
-}
-.memberCard div {
-  padding: 24px 16px 24px 16px;
-}
-.memberCard div div {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
+  color: white;
+}
 .memberCard h3 {
   color: var(--text-light);
-  margin-bottom: 124px;
+  font-weight: 700;
+  height: fit-content;
 }
+.memberBackground {
+  position: absolute;
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+
+  z-index: 0;
+}
+
+.memberOverlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.25));
+
+  z-index: 1;
+}
+
+.memberContent {
+  position: relative;
+  z-index: 2;
+  padding: 16rem 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* ----------- gallery and contact ------------*/
 .galleryAndContact {
   display: flex;
@@ -347,4 +364,101 @@
   align-items: center;
   padding: 24px 100px 24px 100px;
   gap: 3rem;
+}
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+#galleryCarousel {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.galleryCard {
+  flex: 0 0 calc((100% - 4rem) / 3);
+
+  aspect-ratio: 16 / 9;
+  height: auto;
+
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.galleryCard img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+
+  display: block;
+}
+.galleryButtonLeft,
+.galleryButtonRight {
+  width: 3.125rem;
+  height: 3.125rem;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--text-light);
+  cursor: pointer;
+}
+.imageViewer {
+  position: fixed;
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.imageViewer img {
+  max-width: 90vw;
+  max-height: 90vh;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 12px;
+}
+
+.imageViewerClose {
+  position: absolute;
+
+  top: 2rem;
+  right: 2rem;
+
+  width: 3rem;
+  height: 3rem;
+
+  border: none;
+  border-radius: 50%;
+
+  background: white;
+  color: black;
+
+  font-size: 2rem;
+  line-height: 1;
+
+  cursor: pointer;
+
+  z-index: 10000;
 }

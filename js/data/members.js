@@ -74,7 +74,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: null,
+    image: "../assets/images/people photo/fatih.jpeg",
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const members = [
       username: "@yukade_",
       url: "https://instagram.com/yukade_",
     },
-    image: null,
+    image: "../assets/images/members/yudi.jpeg",
   },
   {
     id: 9,

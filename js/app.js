@@ -1,3 +1,5 @@
+import gallery from "./data/gallery.js";
+import { createGalleryCard } from "./components/GalleryCard.js";
 import members from "./data/members.js";
 import { createMemberCard } from "./components/MemberCard.js";
 import VirtualCarousel from "./carousel/VirtualCarousel.js";
@@ -12,4 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     visibleItems: 3,
     animationDuration: 400,
   });
+});
+new VirtualCarousel({
+  container: "#galleryCarousel",
+  data: gallery,
+  createElement: createGalleryCard,
+  prevButton: ".galleryButtonLeft",
+  nextButton: ".galleryButtonRight",
+  visibleItems: 3,
+  animationDuration: 400,
 });
