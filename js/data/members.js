@@ -8,7 +8,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: null,
+    image: "/AETERNA-TRIAS/assets/images/members/ghozy.jpeg",
   },
   {
     id: 2,
@@ -195,7 +195,7 @@ const members = [
       username: "@baroon_witch2",
       url: "https://www.instagram.com/baroon_witch2",
     },
-    image: "../assets/images/members/nopal.jpg",
+    image: "/AETERNA-TRIAS/assets/images/members/nopal.jpg",
   },
   {
     id: 19,
