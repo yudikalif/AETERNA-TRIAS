@@ -315,14 +315,29 @@
 .memberCard {
   flex: 0 0 var(--card-width);
   width: var(--card-width);
-
-  min-height: 320px;
-
-  background: white;
-  color: black;
+  padding: 0px;
+  background: var(--primary);
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 16px;
-  padding: 20px;
+
   box-sizing: border-box;
+}
+.memberCard div {
+  padding: 24px 16px 24px 16px;
+}
+.memberCard div div {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.memberCard h3 {
+  color: var(--text-light);
+  margin-bottom: 124px;
 }
 /* ----------- gallery and contact ------------*/
 .galleryAndContact {

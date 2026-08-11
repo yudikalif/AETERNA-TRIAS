@@ -4,14 +4,16 @@ export function createMemberCard(member) {
 
   card.innerHTML = `
         
-
+        <div>
         <h3>${member.name}</h3>
-
-        <p>${member.favoriteSong}</p>
+        <div>
+        <p>🎶 ${member.favoriteSong}</p>
 
         <a href="${member.instagram.url}" target="_blank">
             ${member.instagram.username}
         </a>
+        </div>
+        </div>
     `;
 
   return card;

@@ -93,7 +93,7 @@ const members = [
     role: "Member",
     favoriteSong: "Pemuja Rahasia",
     instagram: {
-      username: "@example",
+      username: "@traalqii._",
       url: "#",
     },
     image: null,
@@ -124,7 +124,7 @@ const members = [
     id: 12,
     name: "Anugerah",
     role: "Member",
-    favoriteSong: "When I Was Your Man - Bruno Mars",
+    favoriteSong: "kangen - Dewa 19",
     instagram: {
       username: "@example",
       url: "#",
@@ -179,7 +179,7 @@ const members = [
     id: 17,
     name: "Aqila",
     role: "Member",
-    favoriteSong: "Ingkar - Tulus",
+    favoriteSong: "best part - Daniel caesar",
     instagram: {
       username: "@example",
       url: "#",
