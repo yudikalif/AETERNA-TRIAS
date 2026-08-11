@@ -74,7 +74,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: "../assets/images/members/fatih.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/fatih.jpeg",
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const members = [
       username: "@yukade_",
       url: "https://instagram.com/yukade_",
     },
-    image: "../assets/images/members/yudi.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/yudi.jpeg",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ const members = [
       username: "@traalqii._",
       url: "https://www.instagram.com/traalqii._",
     },
-    image: "../assets/images/members/giyan.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/giyan.jpeg",
   },
   {
     id: 10,
@@ -118,7 +118,7 @@ const members = [
       username: "@yafi2563",
       url: "https://www.instagram.com/yafi2563/",
     },
-    image: "../assets/images/members/yafi.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/yafi.jpeg",
   },
   {
     id: 12,
@@ -162,7 +162,7 @@ const members = [
       username: "@example",
       url: "#",
     },
-    image: "../assets/images/members/rayyan.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/rayyan.jpeg",
   },
   {
     id: 16,
@@ -184,7 +184,7 @@ const members = [
       username: "@nadaqurrotun_",
       url: "https://www.instagram.com/nadaqurrotun_/",
     },
-    image: "../assets/images/members/aqila.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/aqila.jpeg",
   },
   {
     id: 18,
@@ -206,7 +206,7 @@ const members = [
       username: "@nounaaw_",
       url: "https://www.instagram.com/nounaaw_/",
     },
-    image: "../assets/images/members/naura.jpeg",
+    image: "/AETERNA-TRIAS/assets/images/members/naura.jpeg",
   },
   {
     id: 20,
